@@ -25,3 +25,7 @@ StringInstrument - ElectronicInstrument
 (virtual)
 ElectricViolin
 (электроскрипка — множественное наследование)
+
+## Запуск
+make
+valgrind --leak-check=full ./music_program

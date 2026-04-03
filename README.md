@@ -14,13 +14,14 @@
 - Запускать тест полиморфизма
 
 ## Иерархия классов
+
 MusicalInstrument (абстрактный)
 (чистая вирт. функция: play())
-/
-/ \ (virtual)
-StringInstrument ElectronicInstrument
-(струнные) (электронные)
-\ /
-\ / (virtual)
+
+(virtual)
+StringInstrument - ElectronicInstrument
+   (струнные)    -    (электронные)
+
+(virtual)
 ElectricViolin
 (электроскрипка — множественное наследование)
